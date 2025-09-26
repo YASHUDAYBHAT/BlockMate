@@ -1,0 +1,144 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* ✅ Centered Logo */
+.logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4));
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.08);
+}
+
+/* Optional - Match other hero elements */
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+/* Hero Section */
+.hero {
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #ffdd57;
+  margin-bottom: 20px;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.4);
+}
+
+.hero .intro {
+  font-size: 18px;
+  color: #ddd;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.settings-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #4caf50, #45a049);
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.settings-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.4);
+}
+
+/* Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 40px;
+}
+
+.grid-card {
+  background: linear-gradient(145deg, #2c2c2c, #3a3a3a);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+}
+
+.grid-card h2 {
+  font-size: 24px;
+  color: #ffdd57;
+  margin-bottom: 15px;
+}
+
+.grid-card p {
+  font-size: 16px;
+  color: #ddd;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+/* Buy Me a Coffee Button */
+.buy-coffee {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff813f, #ff4b2b);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 16px 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(255,75,43,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buy-coffee i {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.buy-coffee:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(255,75,43,0.6);
+}
+
+/* Footer */
+footer p {
+  font-size: 15px;
+  color: #ccc;
+  font-style: italic;
+}

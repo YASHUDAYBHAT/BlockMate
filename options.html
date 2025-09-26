@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BlockMate - Settings</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="icons/yt.png" alt="BlockMate Logo" class="logo">
+    <h1>BlockMate</h1>
+    <p class="tagline">A cleaner, distraction-free browsing experience</p>
+  </header>
+
+  <!-- Story + Support Grid -->
+  <section class="grid-container">
+    <div class="grid-card">
+      <h2>Our Mission</h2>
+      <p>
+        BlockMate was created to give you control over your browsing experience.  
+        Ads, popups, and distractions shouldn’t take away your focus.  
+        We believe in a cleaner internet for everyone—completely free.
+      </p>
+      <p>
+        Maintaining and improving this extension takes time and resources.  
+        Your support helps us keep BlockMate free, updated, and accessible to all.
+      </p>
+    </div>
+
+    <div class="grid-card">
+      <h2>Support the Project</h2>
+      <p>
+        If BlockMate helps you enjoy a calmer, more focused internet, consider supporting the project.  
+        Every coffee helps fulfill dreams, improve features, and keep this extension alive for everyone.
+      </p>
+      <a href="https://razorpay.me/@yub098" target="_blank" class="buy-coffee">
+   ☕ Buy Me a Coffee
+</a>
+    </div>
+  </section>
+
+  <!-- Settings Panel -->
+  <main class="card">
+    <!-- ✅ Note for Users -->
+    <div class="note">
+      <p>
+        <strong>Note:</strong> BlockMate may need a moment to adjust to each website.  
+        If you still see ads after enabling a setting, please refresh the page  
+        to let BlockMate apply the changes properly.
+      </p>
+    </div>
+
+    <div class="toggle">
+      <label for="blockShorts">Block Shorts</label>
+      <input type="checkbox" id="blockShorts">
+    </div>
+
+    <div class="toggle">
+      <label for="blockPromoted">Remove Promoted Videos</label>
+      <input type="checkbox" id="blockPromoted">
+    </div>
+
+    <div class="toggle">
+      <label for="stealthMode">Enable Stealth Mode (Premium)</label>
+      <input type="checkbox" id="stealthMode">
+    </div>
+
+    <div class="toggle">
+      <label for="blockAllAds">Block Ads on All Websites</label>
+      <input type="checkbox" id="blockAllAds">
+    </div>
+  </main>
+
+  <footer>
+    <p><em>All changes are saved automatically. Thank you for supporting BlockMate!</em></p>
+  </footer>
+
+  <script src="options.js"></script>
+</body>
+</html>
